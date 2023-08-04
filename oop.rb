@@ -17,6 +17,7 @@ end
 unicorn1 = Unicorn.new("No name")
 puts unicorn1.name 
 puts unicorn1.color
+puts unicorn1.say("hello welcome back to another vid!")
 
 
 
