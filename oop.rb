@@ -29,6 +29,21 @@ puts unicorn1.say("hello welcome back to another vid!")
 #  it should have a thirsty attribute, that is true by default
 #  it should have a drink method. When called, the thirsty attribute changes to false
 
+class Vampire
+    attr_accessor :name,:pet,:thirsty 
+    def initialize(name, pet = "bat", thirsty =true)
+      @name = name 
+      @pet = pet 
+      @thirsty = thirsty
+    end 
+    def Drink
+      @thirsty =false
+    end 
+end 
+  vampire1 = Vampire.new("Luis")
+  puts vampire1.name 
+  puts vampire1.pet 
+  puts vampire1.thirsty
 
 #  Write a Dragon class
 #  it should have a dynamic name attribute (string)
